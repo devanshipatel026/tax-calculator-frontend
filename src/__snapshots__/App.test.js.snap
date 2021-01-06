@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders 1`] = `
+Array [
+  <div>
+    <h1
+      className="App-header"
+    >
+      Tax Calculator
+    </h1>
+  </div>,
+  <div
+    className="App"
+  >
+    <div>
+      <form
+        className="Home"
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group row"
+        >
+          <label
+            className="Home-text col-sm-2 col-form-label mt-2"
+          >
+            Enter Gross Income:
+          </label>
+          <div
+            className="col-sm-6 form-group row"
+          >
+            <input
+              className="form-control mt-2"
+              id="income"
+              onChange={[Function]}
+              placeholder="Enter Gross Income (in CAD)"
+              required={true}
+              type="number"
+              value=""
+            />
+            <button
+              className="btn btn-info mt-4"
+              type="submit"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>,
+]
+`;
